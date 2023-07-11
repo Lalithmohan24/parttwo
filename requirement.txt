@@ -1,0 +1,6 @@
+django
+python-decouple
+djangorestframework
+requests
+djangorestframework-simplejwt
+decouple

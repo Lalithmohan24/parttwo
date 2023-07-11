@@ -1,0 +1,36 @@
+# These are some examples of commonly ignored file patterns.
+# You should customize this list as applicable to your project.
+# Learn more about .gitignore:
+#     https://www.atlassian.com/git/tutorials/saving-changes/gitignore
+
+
+# Compiled Python bytecode
+*.py[cod]
+
+# Log files
+*.log
+
+
+# Unit test reports
+TEST*.xml
+
+
+# Large media files
+*.mp4
+
+#env
+partone/.env
+
+#migrations
+
+partone/apps/oee/migrations/*
+partone/parttwo/__pycache__
+partone/apps/oee/__pycache__
+partone/utils/__pycache__
+partone/apps/oee/__pycache__
+
+#db
+#db.sqlite3
+
+#env
+.env
